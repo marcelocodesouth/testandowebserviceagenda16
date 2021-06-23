@@ -13,14 +13,14 @@
 
     <div class="container h-100">
         <div class="row h-100 justify-content-center align-items-center">
-            <form action="./buscarCEP.php" method="post" class="col-3">
+            <form action="./buscarCep.php" method="post" class="col-3">
             <div class="form-group">
                 <label class="visually-hidden">CEP</label>
                 <br>
                 <br>
                 <h2 class="text-center"> Digite o CEP </h2>
                 <br>
-                <input name="txtCEP" type="text" class="form-control" placeholder="00000000">
+                <input name="txtCEP" type="text" class="form-control" placeholder="00000-000">
             </div>
             <div class="form-group">
             <br>

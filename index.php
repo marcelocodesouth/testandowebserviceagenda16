@@ -11,19 +11,23 @@
 
 <body>
 
-    <div class="align-items-center justify-content-center">
-        <form action="buscarCEP.php" method="post" class="row g-3">
-            <div class="col-auto">
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center">
+            <form action="buscarCEP.php" method="post" class="col-3">
+            <div class="form-group">
                 <label class="visually-hidden">CEP</label>
-            </div>
-            <div class="col-auto">
-                <label class="visually-hidden">CEP</label>
+                <br>
+                <br>
+                <h2 class="text-center"> Digite o CEP </h2>
+                <br>
                 <input name="txtCEP" type="text" class="form-control" placeholder="00000000">
             </div>
-            <div class="col-auto">
+            <div class="form-group">
+            <br>
                 <button name="btnBuscar" class="btn btn-primary mb-3">Buscar</button>
             </div>
-        </form>
+            </form>   
+        </div>  
     </div>
 
 </body>

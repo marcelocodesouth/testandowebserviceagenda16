@@ -15,7 +15,7 @@
 
   <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Consulta do CEP </h5>
+    <h5 class="card-title">Endereço do CEP </h5>
     <p class="card-text">
     
         <?php

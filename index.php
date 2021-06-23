@@ -13,7 +13,7 @@
 
     <div class="container h-100">
         <div class="row h-100 justify-content-center align-items-center">
-            <form action="buscarCEP.php" method="post" class="col-3">
+            <form action="./buscarCEP.php" method="post" class="col-3">
             <div class="form-group">
                 <label class="visually-hidden">CEP</label>
                 <br>
